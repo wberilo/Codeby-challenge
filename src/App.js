@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
 
 function App() {
+  const [trufas, setTrufas] = useState([])
+
+  // useEffect(() => {
+  //   axios.get()
+  // }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="cart">
+        <div className="title">
+          <h1>Meu carrinho</h1> 
+        </div>
+        <hr/>
+        <div className="total">
+
+        </div>
+        <hr/>
+        <Button>Finalizar Compra</Button>
+      </div>
     </div>
   );
 }
