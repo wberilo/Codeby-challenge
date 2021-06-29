@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Button, Alert, Col } from "react-bootstrap";
+import { Button, Alert } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import "./App.css";
