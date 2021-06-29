@@ -2,13 +2,71 @@
 
 .App {
   background-color: grey;
+  padding: 10px;
 }
-
 .cart {
+  margin: 30px;
+  border: 100px;
+  font-family: 'Poppins';
   background-color: white;
   border-radius: 15px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
-  font-weight: 900;
+  padding-top: 20px;
+}
+.title h2 {
+  text-align: center;
+}
+
+.listItem {
+  display: flex;
+  margin: 20px;
+}
+.listItem img{
+  width: 150px;
+  border: 1px solid gray;
+}
+.listItem div{
+  align-self: center;
+  margin: 20px;
+}
+
+.total {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.checkout{
+  padding: 20px;
+}
+.checkoutBtn {
+  font-size:x-large;
+  width: 100%;
+  padding: 10px;
+}
+
+.alert {
+  font-size: larger;
+  align-self: center;
+  width: fit-content;
+  text-align: center;
+  margin: 20px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.condicoes {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
 }
