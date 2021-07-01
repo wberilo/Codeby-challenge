@@ -18,7 +18,9 @@ Para rodar o servidor:
 Visite o aplicativo em:
 
 `localhost:3000/`  
-e o deploy em: 
+
+e o deploy em:
+
 [http://codeby-challenge-tau.vercel.app/](http://codeby-challenge-tau.vercel.app/)
 
 
