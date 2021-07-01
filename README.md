@@ -1,7 +1,7 @@
 # Codeby-challenge
 
 ## Detalhes
-Projeto desenvolvido com react.js, Axios e Componentes do React-bootstrap
+Projeto desenvolvido com React.js, Axios e Componentes do React-bootstrap
 
 ## Setup e instalação
 
